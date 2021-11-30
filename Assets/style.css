@@ -1,0 +1,40 @@
+/* green from logo #8dc63f */
+/* blue from logo #0f75bd */
+
+/* .brand-logo{
+  max-height: 10%;
+} */
+
+nav {
+  background-color: whitesmoke;
+  height: 10vh;
+}
+
+.nav-wrapper{
+  display:flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  align-self: flex-end;
+}
+
+nav ul a {
+  color: #0f75bd;
+}
+
+img#navLogo {
+  max-height: 8vh;
+  margin-top: 1vh;
+}
+
+main {
+  height: 90vh;
+}
+
+#heroImage {
+  background-image: url("./images/joyce-mccown-IG96K_HiDk0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
