@@ -19,7 +19,7 @@ nav ul{
   align-self: flex-end;
 }
 
-nav ul a {
+nav ul a, i#hamburgerTrigger.material-icons {
   color: #0f75bd;
 }
 
@@ -52,4 +52,27 @@ footer {
 #landingWelcomeText{
   font-size: 1.75rem;
   line-height: 125%;
+}
+
+#footerDisplay{
+  display: flex;
+  justify-content: space-between;
+}
+
+#landingCardPanel{
+  background-color: rgba(245,245,245, 0.75);
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    height: 5vh;
+  }
+  img#navLogo {
+    max-height: 3vh;
+    margin-top: 1vh;
+  }
+  #landingWelcomeText{
+    font-size: 1rem;
+    line-height: 125%;
+  }
 }
