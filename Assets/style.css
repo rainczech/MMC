@@ -10,6 +10,11 @@ nav {
   height: 10vh;
 }
 
+p {
+  line-height: 125%;
+  font-size: 1.25rem;
+}
+
 .nav-wrapper{
   display:flex;
   justify-content: space-between;
@@ -42,6 +47,20 @@ footer {
   background-color: whitesmoke;
 }
 
+ul{
+  margin-left: 1rem;
+  margin-top: 0px;
+}
+
+p.footerText{
+  font-size: 1rem;
+}
+
+.pHeader{
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
 #heroImage {
   background-image: url("./images/joyce-mccown-IG96K_HiDk0-unsplash.jpg");
   background-position: center;
@@ -50,17 +69,16 @@ footer {
 }
 
 #landingWelcomeText{
-  font-size: 1.75rem;
-  line-height: 125%;
+  font-size: 1.75rem;  
 }
 
-#footerDisplay{
+div#footerDisplay{
   display: flex;
   justify-content: space-between;
 }
 
 #landingCardPanel{
-  background-color: rgba(245,245,245, 0.75);
+  background-color: rgba(245,245,245, 0.8);
 }
 
 @media only screen and (max-width: 600px) {
