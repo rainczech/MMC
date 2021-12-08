@@ -17,8 +17,12 @@ p {
 h1 {
   font-size: 2.5rem;
 }
+h2{
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
 
-.nav-wrapper{
+.nav-wrapper, div#footerDisplay, div.priceRow{
   display:flex;
   justify-content: space-between;
 }
@@ -51,8 +55,12 @@ footer {
 }
 
 ul{
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-top: 0px;
+}
+
+li.pricingLi {
+  font-size: 1.5rem;
 }
 
 p.footerText{
@@ -75,13 +83,15 @@ p.footerText{
   font-size: 1.75rem;  
 }
 
-div#footerDisplay{
-  display: flex;
-  justify-content: space-between;
-}
+
 
 #landingCardPanel{
   background-color: rgba(245,245,245, 0.8);
+}
+
+#pageLogo {
+  max-width: 33%;
+  height:auto;
 }
 
 @media only screen and (max-width: 600px) {
