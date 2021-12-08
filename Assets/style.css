@@ -86,12 +86,13 @@ p.footerText{
 
 
 #landingCardPanel{
-  background-color: rgba(245,245,245, 0.8);
+  background-color: rgba(245,245,245, 0.9);
 }
 
 #pageLogo {
   max-width: 33%;
   height:auto;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
